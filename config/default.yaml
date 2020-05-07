@@ -4,7 +4,7 @@ server:
 db:
   type: 'postgres'
   port: 5432
-  database: 'postgresql-cylindrical-06398'
+  database: 'taskmanagement'
 
 jwt: 
   expiresIn: 3600
