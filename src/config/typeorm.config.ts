@@ -9,7 +9,7 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   port: process.env.DB_PORT || dbConfig.port,
   username: process.env.DB_USER || dbConfig.username,
   password: process.env.DB_PASSWORD || dbConfig.password,
-  database: process.env.DB_DATABASE || dbConfig.database,
+  database: process.env.HEROKU_POSTGRESQL_ORANGE_URL || dbConfig.database,
   entities: [__dirname + '/../**/*.entity.{js,ts}'],
   synchronize: process.env.TYPEORM_SYNC || dbConfig.synchronize,
 };
