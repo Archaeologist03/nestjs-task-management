@@ -1,5 +1,5 @@
 server:
-  origin: https://nest-task-management.netlify.app/
+  origin: https://nest-task-management.netlify.app
 
 db:
   synchronize: false,
